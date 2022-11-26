@@ -213,6 +213,18 @@ figure {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.line-clamp-9{
+    -webkit-line-clamp: 9;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.Sales .line-clamp-8{
+    -webkit-line-clamp: 8;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 /*button*/
 .btn-one {
     position: relative;
@@ -3184,6 +3196,10 @@ h3.slick-slide.slick-current.slick-active {
     transition:0.5s ease-in-out;
     overflow: hidden;
 }
+/* .Provid::-webkit-scroller{
+    scrollbar-width: 1;
+    scroll-behavior: smooth;
+} */
 .Provid a{
     text-decoration: none;
     color: black;
